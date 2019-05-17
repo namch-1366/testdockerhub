@@ -5,4 +5,4 @@ ls -la
 pwd
 printenv
 echo $XYZ
-docker build --build-arg XYZ=$XYZ -t $IMAGE_NAME -f $DOCKERFILE_PATH ../../
+docker build --build-arg XYZ=$XYZ -t $IMAGE_NAME -f Dockerfile ../../
