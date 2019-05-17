@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "=============== BUILD ==============="
+docker build --build-arg XYZ=$XYZ -f $DOCKERFILE_PATH -t $IMAGE_NAME .
