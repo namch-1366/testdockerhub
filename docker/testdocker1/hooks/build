@@ -1,9 +1,3 @@
 #!/bin/bash
 echo "=============== BUILD ==============="
-# docker build --build-arg XYZ=$XYZ -f $DOCKERFILE_PATH -t $IMAGE_NAME .
-ls -la
-pwd
-printenv
-echo $XYZ
-BUILD_CONTEXT="/src/$(BUILD_CODE)/"
-docker build --build-arg XYZ=$XYZ -t $IMAGE_NAME -f $DOCKERFILE_PATH $BUILD_CONTEXT
+docker build --build-arg XYZ=$XYZ -t $IMAGE_NAME -f Dockerfile ../../

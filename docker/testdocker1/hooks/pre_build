@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "=============== PRE-BUILD ==============="
-ls -la
-pwd
-printenv
-echo $XYZ
